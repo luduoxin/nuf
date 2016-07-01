@@ -2,6 +2,8 @@
 
 class HomeController extends BaseController{
     public function home(){
-        Model::first();
+        $book = new \Book();
+        $rs = $book->all();
+        print_r($rs);
     }
 }
