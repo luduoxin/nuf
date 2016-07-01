@@ -1,2 +1,2 @@
 # nuf
-基于composer构建的轻量级的MVC框架
+A framework of PHP based on composer
