@@ -1,4 +1,17 @@
 {
+	"name": "muyuren/nuf",
+	"description": "nuf framework",
+	"keywords": [
+		"nuf",
+	],
+	"homepage": "http://www.36nu.com/",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "muyuren",
+			"email": "ning@36nu.com"
+		}
+	],
 	"require":{
 		"noahbuscher/macaw": "dev-master",
 		"illuminate/database": "*",
