@@ -8,4 +8,11 @@ It's recommended that you use [Composer](https://getcomposer.org/) to install nu
 ```bash
 $ composer require muyuren/nuf
 ```
+or
 
+```bash
+$ git clone https://github.com/muyuren/nuf.git
+$ cd nuf 
+$ composer update
+$ composer dump-autoload
+```
