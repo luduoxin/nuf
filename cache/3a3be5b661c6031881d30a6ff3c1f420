@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home view</title>
+</head>
+<body>
+    <?php foreach($data as $v): ?>
+        title:<?php echo e($v['title']); ?><br/>
+    <?php endforeach; ?>
+</body>
+</html>

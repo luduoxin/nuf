@@ -8,7 +8,7 @@ class BaseController
     {
 
     }
-    
+
     public function __destruct()
     {
         $view = $this->view;

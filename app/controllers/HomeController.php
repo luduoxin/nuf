@@ -2,9 +2,8 @@
 
 class HomeController extends BaseController{
     public function home(){
-        $book = new \Book();
-        $rs = $book->all();
-
-        $this->view = View::make('home')->with('book',Book::all());
+        $rs = Book::all();
+        $data = $rs->toArray();
+        echo View::getView()->make('home', array('data'=>$data))->render();
     }
 }

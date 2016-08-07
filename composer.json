@@ -15,7 +15,11 @@
 	"require":{
 		"noahbuscher/macaw": "dev-master",
 		"illuminate/database": "*",
-		"filp/whoops": "*"
+		"filp/whoops": "*",
+		"xiaoler/blade":"*",
+		"predis/predis": "*",
+		"nette/mail": "*",
+		"tufanbarisyildirim/php-apk-parser":"dev-master"
 	},
 	"autoload":{
 		"classmap":[
